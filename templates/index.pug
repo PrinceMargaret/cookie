@@ -1,0 +1,26 @@
+doctype html
+head
+  meta(charset='UTF-8')
+  meta(http-equiv='X-UA-Compatible' content='IE=edge')
+  meta(name='viewport' content='width=device-width, initial-scale=1.0')
+  // CSS only
+  link(href='https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css' rel='stylesheet' integrity='sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor' crossorigin='anonymous')
+  title Cookies Excercise 
+nav.navbar.navbar-expand-lg.navbar-dark.bg-dark
+  .container-fluid
+    a.navbar-brand(href='/') Cookies
+    button.navbar-toggler(type='button' data-bs-toggle='collapse' data-bs-target='#navbarSupportedContent' aria-controls='navbarSupportedContent' aria-expanded='false' aria-label='Toggle navigation')
+      span.navbar-toggler-icon
+  #navbarSupportedContent.collapse.navbar-collapse.float-end
+    ul.navbar-nav.me-auto.mb-2.mb-lg-0
+      li.nav-item.me-5
+        a.nav-link.active(aria-current='page' href='/') Home
+      li.nav-item.me-5
+        a.nav-link.active(aria-current='page' href='/delete') Delete 
+.container.h-100.mt-5.text-center
+  .justify-content-md-center.align-items-center.vh-100
+    .div
+        p.fs-4.border.border-1.p-4.bg-info.rounded #{visits} visits
+    .div 
+        p.fs-4.border.border-1.p-4.bg-info.rounded cookies session:> #{cookies.session} 
+  

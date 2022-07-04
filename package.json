@@ -1,0 +1,22 @@
+{
+  "name": "express-cookie-session-practice",
+  "version": "1.0.0",
+  "description": "Refer the PROBLEM.md file for the problem description.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "ssh://git@gitlab-wipro.stackroute.in:2225/princeagrahari2000/express-cookie-session-practice.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cookie-parser": "^1.4.6",
+    "cookie-session": "^2.0.0",
+    "express": "^4.18.1",
+    "pug": "^3.0.2"
+  }
+}
